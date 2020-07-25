@@ -1,0 +1,560 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for utils/mook_data/MOCK_DATA.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">utils/mook_data</a> MOCK_DATA.js</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">33.33% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>2/6</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">0% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>0/4</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">40% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>2/5</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+    </div>
+    <div class='status-line low'></div>
+    <pre><table class="coverage">
+<tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
+<a name='L2'></a><a href='#L2'>2</a>
+<a name='L3'></a><a href='#L3'>3</a>
+<a name='L4'></a><a href='#L4'>4</a>
+<a name='L5'></a><a href='#L5'>5</a>
+<a name='L6'></a><a href='#L6'>6</a>
+<a name='L7'></a><a href='#L7'>7</a>
+<a name='L8'></a><a href='#L8'>8</a>
+<a name='L9'></a><a href='#L9'>9</a>
+<a name='L10'></a><a href='#L10'>10</a>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a>
+<a name='L25'></a><a href='#L25'>25</a>
+<a name='L26'></a><a href='#L26'>26</a>
+<a name='L27'></a><a href='#L27'>27</a>
+<a name='L28'></a><a href='#L28'>28</a>
+<a name='L29'></a><a href='#L29'>29</a>
+<a name='L30'></a><a href='#L30'>30</a>
+<a name='L31'></a><a href='#L31'>31</a>
+<a name='L32'></a><a href='#L32'>32</a>
+<a name='L33'></a><a href='#L33'>33</a>
+<a name='L34'></a><a href='#L34'>34</a>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a>
+<a name='L56'></a><a href='#L56'>56</a>
+<a name='L57'></a><a href='#L57'>57</a>
+<a name='L58'></a><a href='#L58'>58</a>
+<a name='L59'></a><a href='#L59'>59</a>
+<a name='L60'></a><a href='#L60'>60</a>
+<a name='L61'></a><a href='#L61'>61</a>
+<a name='L62'></a><a href='#L62'>62</a>
+<a name='L63'></a><a href='#L63'>63</a>
+<a name='L64'></a><a href='#L64'>64</a>
+<a name='L65'></a><a href='#L65'>65</a>
+<a name='L66'></a><a href='#L66'>66</a>
+<a name='L67'></a><a href='#L67'>67</a>
+<a name='L68'></a><a href='#L68'>68</a>
+<a name='L69'></a><a href='#L69'>69</a>
+<a name='L70'></a><a href='#L70'>70</a>
+<a name='L71'></a><a href='#L71'>71</a>
+<a name='L72'></a><a href='#L72'>72</a>
+<a name='L73'></a><a href='#L73'>73</a>
+<a name='L74'></a><a href='#L74'>74</a>
+<a name='L75'></a><a href='#L75'>75</a>
+<a name='L76'></a><a href='#L76'>76</a>
+<a name='L77'></a><a href='#L77'>77</a>
+<a name='L78'></a><a href='#L78'>78</a>
+<a name='L79'></a><a href='#L79'>79</a>
+<a name='L80'></a><a href='#L80'>80</a>
+<a name='L81'></a><a href='#L81'>81</a>
+<a name='L82'></a><a href='#L82'>82</a>
+<a name='L83'></a><a href='#L83'>83</a>
+<a name='L84'></a><a href='#L84'>84</a>
+<a name='L85'></a><a href='#L85'>85</a>
+<a name='L86'></a><a href='#L86'>86</a>
+<a name='L87'></a><a href='#L87'>87</a>
+<a name='L88'></a><a href='#L88'>88</a>
+<a name='L89'></a><a href='#L89'>89</a>
+<a name='L90'></a><a href='#L90'>90</a>
+<a name='L91'></a><a href='#L91'>91</a>
+<a name='L92'></a><a href='#L92'>92</a>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a>
+<a name='L96'></a><a href='#L96'>96</a>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a>
+<a name='L99'></a><a href='#L99'>99</a>
+<a name='L100'></a><a href='#L100'>100</a>
+<a name='L101'></a><a href='#L101'>101</a>
+<a name='L102'></a><a href='#L102'>102</a>
+<a name='L103'></a><a href='#L103'>103</a>
+<a name='L104'></a><a href='#L104'>104</a>
+<a name='L105'></a><a href='#L105'>105</a>
+<a name='L106'></a><a href='#L106'>106</a>
+<a name='L107'></a><a href='#L107'>107</a>
+<a name='L108'></a><a href='#L108'>108</a>
+<a name='L109'></a><a href='#L109'>109</a>
+<a name='L110'></a><a href='#L110'>110</a>
+<a name='L111'></a><a href='#L111'>111</a>
+<a name='L112'></a><a href='#L112'>112</a>
+<a name='L113'></a><a href='#L113'>113</a>
+<a name='L114'></a><a href='#L114'>114</a>
+<a name='L115'></a><a href='#L115'>115</a>
+<a name='L116'></a><a href='#L116'>116</a>
+<a name='L117'></a><a href='#L117'>117</a>
+<a name='L118'></a><a href='#L118'>118</a>
+<a name='L119'></a><a href='#L119'>119</a>
+<a name='L120'></a><a href='#L120'>120</a>
+<a name='L121'></a><a href='#L121'>121</a>
+<a name='L122'></a><a href='#L122'>122</a>
+<a name='L123'></a><a href='#L123'>123</a>
+<a name='L124'></a><a href='#L124'>124</a>
+<a name='L125'></a><a href='#L125'>125</a>
+<a name='L126'></a><a href='#L126'>126</a>
+<a name='L127'></a><a href='#L127'>127</a>
+<a name='L128'></a><a href='#L128'>128</a>
+<a name='L129'></a><a href='#L129'>129</a>
+<a name='L130'></a><a href='#L130'>130</a>
+<a name='L131'></a><a href='#L131'>131</a>
+<a name='L132'></a><a href='#L132'>132</a>
+<a name='L133'></a><a href='#L133'>133</a>
+<a name='L134'></a><a href='#L134'>134</a>
+<a name='L135'></a><a href='#L135'>135</a>
+<a name='L136'></a><a href='#L136'>136</a>
+<a name='L137'></a><a href='#L137'>137</a>
+<a name='L138'></a><a href='#L138'>138</a>
+<a name='L139'></a><a href='#L139'>139</a>
+<a name='L140'></a><a href='#L140'>140</a>
+<a name='L141'></a><a href='#L141'>141</a>
+<a name='L142'></a><a href='#L142'>142</a>
+<a name='L143'></a><a href='#L143'>143</a>
+<a name='L144'></a><a href='#L144'>144</a>
+<a name='L145'></a><a href='#L145'>145</a>
+<a name='L146'></a><a href='#L146'>146</a>
+<a name='L147'></a><a href='#L147'>147</a>
+<a name='L148'></a><a href='#L148'>148</a>
+<a name='L149'></a><a href='#L149'>149</a>
+<a name='L150'></a><a href='#L150'>150</a>
+<a name='L151'></a><a href='#L151'>151</a>
+<a name='L152'></a><a href='#L152'>152</a>
+<a name='L153'></a><a href='#L153'>153</a>
+<a name='L154'></a><a href='#L154'>154</a>
+<a name='L155'></a><a href='#L155'>155</a>
+<a name='L156'></a><a href='#L156'>156</a>
+<a name='L157'></a><a href='#L157'>157</a>
+<a name='L158'></a><a href='#L158'>158</a>
+<a name='L159'></a><a href='#L159'>159</a>
+<a name='L160'></a><a href='#L160'>160</a>
+<a name='L161'></a><a href='#L161'>161</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const moviesMock = [
+  {
+    id: 'dbb16088-aa10-45c2-812c-4629381655af',
+    title: 'Lumberjacking (Nuoruuteni savotat)',
+    year: 2011,
+    cover: 'http://dummyimage.com/233x235.bmp/ff4444/ffffff',
+    description:
+      'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.',
+    duration: 21,
+    contentRating: null,
+    source:
+      'https://answers.com/vivamus/vel.html?nulla=penatibus&amp;dapibus=et&amp;dolor=magnis&amp;vel=dis&amp;est=parturient&amp;donec=montes&amp;odio=nascetur&amp;justo=ridiculus&amp;sollicitudin=mus&amp;ut=vivamus&amp;suscipit=vestibulum&amp;a=sagittis&amp;feugiat=sapien&amp;et=cum&amp;eros=sociis&amp;vestibulum=natoque&amp;ac=penatibus&amp;est=et&amp;lacinia=magnis&amp;nisi=dis&amp;venenatis=parturient&amp;tristique=montes&amp;fusce=nascetur&amp;congue=ridiculus&amp;diam=mus&amp;id=etiam&amp;ornare=vel&amp;imperdiet=augue&amp;sapien=vestibulum&amp;urna=rutrum&amp;pretium=rutrum&amp;nisl=neque&amp;ut=aenean&amp;volutpat=auctor&amp;sapien=gravida&amp;arcu=sem&amp;sed=praesent',
+    tags: ['Drama', 'Comedy|Drama|Romance'],
+  },
+  {
+    id: '0d15242c-e20f-486d-962d-d00df78f565a',
+    title: 'Mallrats',
+    year: 2000,
+    cover: 'http://dummyimage.com/198x125.png/dddddd/000000',
+    description:
+      'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.',
+    duration: 12,
+    contentRating: null,
+    source:
+      'http://newsvine.com/sit/amet/nulla/quisque/arcu/libero.aspx?quam=orci&amp;nec=nullam&amp;dui=molestie&amp;luctus=nibh&amp;rutrum=in&amp;nulla=lectus&amp;tellus=pellentesque&amp;in=at&amp;sagittis=nulla&amp;dui=suspendisse&amp;vel=potenti&amp;nisl=cras&amp;duis=in&amp;ac=purus&amp;nibh=eu&amp;fusce=magna&amp;lacus=vulputate&amp;purus=luctus&amp;aliquet=cum&amp;at=sociis&amp;feugiat=natoque&amp;non=penatibus&amp;pretium=et&amp;quis=magnis&amp;lectus=dis&amp;suspendisse=parturient&amp;potenti=montes&amp;in=nascetur&amp;eleifend=ridiculus&amp;quam=mus&amp;a=vivamus&amp;odio=vestibulum&amp;in=sagittis&amp;hac=sapien&amp;habitasse=cum&amp;platea=sociis&amp;dictumst=natoque&amp;maecenas=penatibus&amp;ut=et&amp;massa=magnis&amp;quis=dis&amp;augue=parturient&amp;luctus=montes&amp;tincidunt=nascetur&amp;nulla=ridiculus&amp;mollis=mus&amp;molestie=etiam&amp;lorem=vel&amp;quisque=augue&amp;ut=vestibulum&amp;erat=rutrum&amp;curabitur=rutrum&amp;gravida=neque&amp;nisi=aenean&amp;at=auctor&amp;nibh=gravida&amp;in=sem&amp;hac=praesent&amp;habitasse=id&amp;platea=massa&amp;dictumst=id&amp;aliquam=nisl&amp;augue=venenatis&amp;quam=lacinia&amp;sollicitudin=aenean&amp;vitae=sit&amp;consectetuer=amet&amp;eget=justo&amp;rutrum=morbi&amp;at=ut&amp;lorem=odio&amp;integer=cras&amp;tincidunt=mi&amp;ante=pede&amp;vel=malesuada&amp;ipsum=in&amp;praesent=imperdiet&amp;blandit=et&amp;lacinia=commodo&amp;erat=vulputate&amp;vestibulum=justo&amp;sed=in&amp;magna=blandit&amp;at=ultrices&amp;nunc=enim&amp;commodo=lorem&amp;placerat=ipsum&amp;praesent=dolor&amp;blandit=sit&amp;nam=amet&amp;nulla=consectetuer&amp;integer=adipiscing&amp;pede=elit&amp;justo=proin&amp;lacinia=interdum&amp;eget=mauris&amp;tincidunt=non&amp;eget=ligula&amp;tempus=pellentesque',
+    tags: ['Comedy|Drama', 'Comedy|Drama|Romance', 'Drama', 'Drama', 'Comedy'],
+  },
+  {
+    id: 'e7bc619f-6c27-41bd-8f59-6b5d2fb67315',
+    title: 'Withnail &amp; I',
+    year: 2009,
+    cover: 'http://dummyimage.com/192x210.bmp/dddddd/000000',
+    description:
+      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+    duration: 6,
+    contentRating: null,
+    source:
+      'http://abc.net.au/dui.jsp?nibh=augue&amp;in=vel&amp;hac=accumsan&amp;habitasse=tellus&amp;platea=nisi&amp;dictumst=eu&amp;aliquam=orci&amp;augue=mauris&amp;quam=lacinia&amp;sollicitudin=sapien&amp;vitae=quis&amp;consectetuer=libero&amp;eget=nullam&amp;rutrum=sit&amp;at=amet&amp;lorem=turpis&amp;integer=elementum&amp;tincidunt=ligula&amp;ante=vehicula&amp;vel=consequat&amp;ipsum=morbi&amp;praesent=a&amp;blandit=ipsum&amp;lacinia=integer&amp;erat=a&amp;vestibulum=nibh&amp;sed=in&amp;magna=quis&amp;at=justo&amp;nunc=maecenas&amp;commodo=rhoncus&amp;placerat=aliquam&amp;praesent=lacus&amp;blandit=morbi&amp;nam=quis&amp;nulla=tortor&amp;integer=id&amp;pede=nulla&amp;justo=ultrices&amp;lacinia=aliquet&amp;eget=maecenas&amp;tincidunt=leo&amp;eget=odio&amp;tempus=condimentum&amp;vel=id&amp;pede=luctus&amp;morbi=nec&amp;porttitor=molestie&amp;lorem=sed&amp;id=justo&amp;ligula=pellentesque&amp;suspendisse=viverra&amp;ornare=pede&amp;consequat=ac&amp;lectus=diam&amp;in=cras&amp;est=pellentesque&amp;risus=volutpat&amp;auctor=dui&amp;sed=maecenas&amp;tristique=tristique&amp;in=est&amp;tempus=et&amp;sit=tempus&amp;amet=semper&amp;sem=est&amp;fusce=quam&amp;consequat=pharetra&amp;nulla=magna&amp;nisl=ac&amp;nunc=consequat&amp;nisl=metus&amp;duis=sapien&amp;bibendum=ut&amp;felis=nunc&amp;sed=vestibulum&amp;interdum=ante&amp;venenatis=ipsum&amp;turpis=primis&amp;enim=in&amp;blandit=faucibus&amp;mi=orci&amp;in=luctus&amp;porttitor=et&amp;pede=ultrices&amp;justo=posuere&amp;eu=cubilia&amp;massa=curae&amp;donec=mauris&amp;dapibus=viverra&amp;duis=diam&amp;at=vitae',
+    tags: ['War'],
+  },
+  {
+    id: 'aaca6f9c-9f1b-46d1-9b8b-d2aab911aa46',
+    title: 'Backyard, The',
+    year: 2003,
+    cover: 'http://dummyimage.com/141x181.bmp/dddddd/000000',
+    description:
+      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
+    duration: 13,
+    contentRating: null,
+    source:
+      'https://squarespace.com/enim/lorem/ipsum/dolor.jsp?pretium=dictumst&amp;iaculis=etiam&amp;diam=faucibus&amp;erat=cursus&amp;fermentum=urna&amp;justo=ut&amp;nec=tellus&amp;condimentum=nulla&amp;neque=ut&amp;sapien=erat&amp;placerat=id&amp;ante=mauris&amp;nulla=vulputate&amp;justo=elementum&amp;aliquam=nullam&amp;quis=varius&amp;turpis=nulla&amp;eget=facilisi&amp;elit=cras&amp;sodales=non&amp;scelerisque=velit&amp;mauris=nec&amp;sit=nisi&amp;amet=vulputate&amp;eros=nonummy&amp;suspendisse=maecenas&amp;accumsan=tincidunt&amp;tortor=lacus&amp;quis=at&amp;turpis=velit&amp;sed=vivamus&amp;ante=vel&amp;vivamus=nulla&amp;tortor=eget&amp;duis=eros&amp;mattis=elementum&amp;egestas=pellentesque&amp;metus=quisque&amp;aenean=porta&amp;fermentum=volutpat&amp;donec=erat&amp;ut=quisque&amp;mauris=erat&amp;eget=eros&amp;massa=viverra&amp;tempor=eget&amp;convallis=congue&amp;nulla=eget&amp;neque=semper&amp;libero=rutrum&amp;convallis=nulla&amp;eget=nunc&amp;eleifend=purus&amp;luctus=phasellus&amp;ultricies=in&amp;eu=felis&amp;nibh=donec&amp;quisque=semper&amp;id=sapien&amp;justo=a&amp;sit=libero&amp;amet=nam&amp;sapien=dui&amp;dignissim=proin&amp;vestibulum=leo&amp;vestibulum=odio&amp;ante=porttitor&amp;ipsum=id&amp;primis=consequat&amp;in=in&amp;faucibus=consequat&amp;orci=ut&amp;luctus=nulla&amp;et=sed&amp;ultrices=accumsan&amp;posuere=felis&amp;cubilia=ut&amp;curae=at&amp;nulla=dolor&amp;dapibus=quis&amp;dolor=odio&amp;vel=consequat&amp;est=varius&amp;donec=integer&amp;odio=ac&amp;justo=leo&amp;sollicitudin=pellentesque&amp;ut=ultrices&amp;suscipit=mattis',
+    tags: [
+      'Comedy|Crime|Drama|Romance',
+      'Drama',
+      'Adventure|Animation|Comedy|Fantasy|Musical',
+    ],
+  },
+  {
+    id: 'c9f66d62-e6e6-435e-b4d8-4d0b2290cfca',
+    title: 'Artist and the Model, The (El artista y la modelo)',
+    year: 2009,
+    cover: 'http://dummyimage.com/118x239.bmp/dddddd/000000',
+    description:
+      'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+    duration: 87,
+    contentRating: null,
+    source:
+      'https://dedecms.com/tincidunt.json?vestibulum=phasellus&amp;aliquet=sit&amp;ultrices=amet&amp;erat=erat&amp;tortor=nulla&amp;sollicitudin=tempus&amp;mi=vivamus&amp;sit=in&amp;amet=felis&amp;lobortis=eu&amp;sapien=sapien&amp;sapien=cursus&amp;non=vestibulum&amp;mi=proin&amp;integer=eu&amp;ac=mi&amp;neque=nulla&amp;duis=ac&amp;bibendum=enim&amp;morbi=in&amp;non=tempor&amp;quam=turpis&amp;nec=nec&amp;dui=euismod&amp;luctus=scelerisque&amp;rutrum=quam&amp;nulla=turpis&amp;tellus=adipiscing&amp;in=lorem&amp;sagittis=vitae&amp;dui=mattis&amp;vel=nibh&amp;nisl=ligula&amp;duis=nec&amp;ac=sem&amp;nibh=duis&amp;fusce=aliquam&amp;lacus=convallis&amp;purus=nunc',
+    tags: ['Horror', 'Drama', 'Adventure|Sci-Fi', 'Comedy|Fantasy'],
+  },
+  {
+    id: 'f3b8c41b-2a69-421c-ba81-dfaee81e243e',
+    title: 'Wisdom',
+    year: 2004,
+    cover: 'http://dummyimage.com/102x226.jpg/dddddd/000000',
+    description:
+      'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.',
+    duration: 27,
+    contentRating: null,
+    source:
+      'https://sfgate.com/eros.xml?ipsum=bibendum&amp;dolor=felis&amp;sit=sed&amp;amet=interdum&amp;consectetuer=venenatis&amp;adipiscing=turpis&amp;elit=enim&amp;proin=blandit&amp;risus=mi&amp;praesent=in&amp;lectus=porttitor&amp;vestibulum=pede&amp;quam=justo&amp;sapien=eu&amp;varius=massa&amp;ut=donec&amp;blandit=dapibus&amp;non=duis&amp;interdum=at&amp;in=velit&amp;ante=eu&amp;vestibulum=est&amp;ante=congue&amp;ipsum=elementum&amp;primis=in&amp;in=hac&amp;faucibus=habitasse&amp;orci=platea&amp;luctus=dictumst&amp;et=morbi&amp;ultrices=vestibulum&amp;posuere=velit&amp;cubilia=id&amp;curae=pretium&amp;duis=iaculis&amp;faucibus=diam&amp;accumsan=erat&amp;odio=fermentum&amp;curabitur=justo&amp;convallis=nec&amp;duis=condimentum&amp;consequat=neque&amp;dui=sapien&amp;nec=placerat&amp;nisi=ante&amp;volutpat=nulla&amp;eleifend=justo&amp;donec=aliquam',
+    tags: [
+      'Drama',
+      'Crime|Drama|Film-Noir',
+      'Comedy',
+      'Action|Animation|Children|Comedy|Sci-Fi|IMAX',
+    ],
+  },
+  {
+    id: '9624728c-f6f8-4300-9b19-513a116b07a4',
+    title: 'Hit List, The',
+    year: 2010,
+    cover: 'http://dummyimage.com/130x169.png/cc0000/ffffff',
+    description:
+      'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.',
+    duration: 83,
+    contentRating: null,
+    source:
+      'https://baidu.com/curae/nulla/dapibus/dolor.aspx?sit=pulvinar&amp;amet=nulla&amp;consectetuer=pede&amp;adipiscing=ullamcorper&amp;elit=augue&amp;proin=a&amp;interdum=suscipit&amp;mauris=nulla&amp;non=elit&amp;ligula=ac&amp;pellentesque=nulla&amp;ultrices=sed&amp;phasellus=vel&amp;id=enim&amp;sapien=sit&amp;in=amet&amp;sapien=nunc&amp;iaculis=viverra&amp;congue=dapibus&amp;vivamus=nulla&amp;metus=suscipit',
+    tags: ['Comedy|Romance'],
+  },
+  {
+    id: '3a8507a0-c2d4-4d5a-b10b-0e9c90c9f4ea',
+    title: 'Company: Original Cast Album',
+    year: 1998,
+    cover: 'http://dummyimage.com/247x224.png/ff4444/ffffff',
+    description:
+      'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
+    duration: 91,
+    contentRating: null,
+    source:
+      'http://wix.com/dui.aspx?potenti=eget&amp;in=elit&amp;eleifend=sodales&amp;quam=scelerisque&amp;a=mauris&amp;odio=sit&amp;in=amet&amp;hac=eros&amp;habitasse=suspendisse&amp;platea=accumsan&amp;dictumst=tortor&amp;maecenas=quis&amp;ut=turpis&amp;massa=sed&amp;quis=ante&amp;augue=vivamus&amp;luctus=tortor&amp;tincidunt=duis&amp;nulla=mattis&amp;mollis=egestas&amp;molestie=metus&amp;lorem=aenean&amp;quisque=fermentum&amp;ut=donec&amp;erat=ut&amp;curabitur=mauris&amp;gravida=eget&amp;nisi=massa&amp;at=tempor&amp;nibh=convallis&amp;in=nulla&amp;hac=neque&amp;habitasse=libero&amp;platea=convallis&amp;dictumst=eget&amp;aliquam=eleifend&amp;augue=luctus&amp;quam=ultricies&amp;sollicitudin=eu&amp;vitae=nibh&amp;consectetuer=quisque&amp;eget=id&amp;rutrum=justo&amp;at=sit&amp;lorem=amet&amp;integer=sapien&amp;tincidunt=dignissim&amp;ante=vestibulum&amp;vel=vestibulum&amp;ipsum=ante&amp;praesent=ipsum&amp;blandit=primis&amp;lacinia=in&amp;erat=faucibus&amp;vestibulum=orci&amp;sed=luctus&amp;magna=et&amp;at=ultrices&amp;nunc=posuere&amp;commodo=cubilia&amp;placerat=curae&amp;praesent=nulla&amp;blandit=dapibus&amp;nam=dolor&amp;nulla=vel&amp;integer=est',
+    tags: ['Comedy|Drama', '(no genres listed)'],
+  },
+  {
+    id: '43adbb4a-6c8b-4e9c-9c98-aa15d03dbd48',
+    title: "Whores' Glory",
+    year: 2010,
+    cover: 'http://dummyimage.com/139x241.jpg/5fa2dd/ffffff',
+    description:
+      'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.',
+    duration: 24,
+    contentRating: null,
+    source:
+      'http://elegantthemes.com/primis/in/faucibus/orci/luctus/et.xml?primis=maecenas',
+    tags: ['Documentary', 'Drama|War'],
+  },
+  {
+    id: 'b18d28ec-51b5-4340-935f-0a14f33efdff',
+    title: 'None But the Lonely Heart',
+    year: 1984,
+    cover: 'http://dummyimage.com/114x144.bmp/5fa2dd/ffffff',
+    description:
+      'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.',
+    duration: 96,
+    contentRating: null,
+    source:
+      'https://noaa.gov/at.xml?erat=faucibus&amp;vestibulum=orci&amp;sed=luctus&amp;magna=et&amp;at=ultrices&amp;nunc=posuere&amp;commodo=cubilia&amp;placerat=curae&amp;praesent=donec&amp;blandit=pharetra&amp;nam=magna&amp;nulla=vestibulum&amp;integer=aliquet&amp;pede=ultrices&amp;justo=erat&amp;lacinia=tortor&amp;eget=sollicitudin&amp;tincidunt=mi&amp;eget=sit&amp;tempus=amet&amp;vel=lobortis&amp;pede=sapien&amp;morbi=sapien&amp;porttitor=non&amp;lorem=mi&amp;id=integer&amp;ligula=ac&amp;suspendisse=neque&amp;ornare=duis&amp;consequat=bibendum&amp;lectus=morbi&amp;in=non&amp;est=quam&amp;risus=nec&amp;auctor=dui&amp;sed=luctus&amp;tristique=rutrum&amp;in=nulla&amp;tempus=tellus&amp;sit=in&amp;amet=sagittis&amp;sem=dui&amp;fusce=vel&amp;consequat=nisl&amp;nulla=duis&amp;nisl=ac&amp;nunc=nibh&amp;nisl=fusce&amp;duis=lacus&amp;bibendum=purus&amp;felis=aliquet&amp;sed=at&amp;interdum=feugiat&amp;venenatis=non&amp;turpis=pretium&amp;enim=quis&amp;blandit=lectus&amp;mi=suspendisse&amp;in=potenti&amp;porttitor=in&amp;pede=eleifend&amp;justo=quam&amp;eu=a&amp;massa=odio&amp;donec=in&amp;dapibus=hac&amp;duis=habitasse&amp;at=platea&amp;velit=dictumst&amp;eu=maecenas&amp;est=ut&amp;congue=massa&amp;elementum=quis&amp;in=augue&amp;hac=luctus&amp;habitasse=tincidunt&amp;platea=nulla&amp;dictumst=mollis&amp;morbi=molestie&amp;vestibulum=lorem&amp;velit=quisque&amp;id=ut&amp;pretium=erat&amp;iaculis=curabitur&amp;diam=gravida&amp;erat=nisi&amp;fermentum=at&amp;justo=nibh&amp;nec=in&amp;condimentum=hac',
+    tags: ['Comedy|Horror|Mystery|Thriller', 'Drama', 'Children'],
+  },
+]
+&nbsp;
+function <span class="fstat-no" title="function not covered" >filteredMoviesMock(</span>tags) {
+<span class="cstat-no" title="statement not covered" >  return moviesMock.filter(<span class="fstat-no" title="function not covered" >(m</span>ovie) =&gt; <span class="cstat-no" title="statement not covered" >movie.tags.includes(tag))</span></span>
+}
+&nbsp;
+class MoviesServiceMock {
+<span class="fstat-no" title="function not covered" >  as</span>ync getMovies() {
+<span class="cstat-no" title="statement not covered" >    return Promise.resolve(moviesMock)</span>
+  }
+<span class="fstat-no" title="function not covered" >  as</span>ync createMovie() {
+<span class="cstat-no" title="statement not covered" >    return Promise.resolve(moviesMock[0])</span>
+  }
+}
+&nbsp;
+module.exports = {
+  moviesMock,
+  filteredMoviesMock,
+  MoviesServiceMock,
+}
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
+                at Thu Jun 25 2020 21:33:36 GMT-0500 (Colombia Standard Time)
+            </div>
+        </div>
+        <script src="../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../sorter.js"></script>
+        <script src="../../block-navigation.js"></script>
+    </body>
+</html>
+    
